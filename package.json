@@ -1,0 +1,39 @@
+{
+  "name": "swagger-to-ts-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/lodash.groupby": "^4.6.6",
+    "@types/node": "^14.14.41",
+    "@types/node-fetch": "^2.5.10",
+    "@types/prettier": "^2.2.3",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "lodash.groupby": "^4.6.0",
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.2.1",
+    "request": "^2.88.2",
+    "require-from-string": "^2.0.2",
+    "tsc": "^2.0.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northpbear/swagger-to-ts-interface.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northpbear/swagger-to-ts-interface/issues"
+  },
+  "homepage": "https://github.com/northpbear/swagger-to-ts-interface#readme"
+}
